@@ -1,0 +1,15 @@
+[project]
+name = "comfyui_stringtohex"
+description = "This is a simple ComfyUI node that will take in a string of 'color' (i.e. 'blue') and output a hex color format."
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["colorcontroller"]
+
+[project.urls]
+Repository = "https://github.com/kasukanra/ComfyUI_StringToHex"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = "kasukanra"
+DisplayName = "ComfyUI_StringToHex"
+Icon = ""
